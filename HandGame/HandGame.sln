@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C27701E9-E44E-4E5E-9735-C38B86B71AF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{FD6DA077-3C26-41D0-A771-B4B9C0CCC40C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistance", "Persistance", "{2AC4BDD6-D367-43AA-A364-15807491AA59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandGame.Persistance", "Persistance\HandGame.Persistance\HandGame.Persistance.csproj", "{4E9B0275-7B50-4BCB-9445-0B50C05511B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandGame.Application", "Application\HandGame.Application\HandGame.Application.csproj", "{8BDDC78E-2C2B-495A-928A-1292E96BB97F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandGame.Presentation", "Presentation\HandGame.Presentation\HandGame.Presentation.csproj", "{AE43A1DD-C4B1-40F2-87C1-112F5F07C5E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E16783D8-8EB5-44FA-BA5B-E272C8F548E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandGame.Domain", "Domain\HandGame.Domain\HandGame.Domain.csproj", "{67D6F034-CBF3-4C1F-9483-1AE526A8DE25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E9B0275-7B50-4BCB-9445-0B50C05511B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9B0275-7B50-4BCB-9445-0B50C05511B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9B0275-7B50-4BCB-9445-0B50C05511B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9B0275-7B50-4BCB-9445-0B50C05511B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDDC78E-2C2B-495A-928A-1292E96BB97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDDC78E-2C2B-495A-928A-1292E96BB97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDDC78E-2C2B-495A-928A-1292E96BB97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDDC78E-2C2B-495A-928A-1292E96BB97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE43A1DD-C4B1-40F2-87C1-112F5F07C5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE43A1DD-C4B1-40F2-87C1-112F5F07C5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE43A1DD-C4B1-40F2-87C1-112F5F07C5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE43A1DD-C4B1-40F2-87C1-112F5F07C5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D6F034-CBF3-4C1F-9483-1AE526A8DE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D6F034-CBF3-4C1F-9483-1AE526A8DE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D6F034-CBF3-4C1F-9483-1AE526A8DE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D6F034-CBF3-4C1F-9483-1AE526A8DE25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E9B0275-7B50-4BCB-9445-0B50C05511B2} = {2AC4BDD6-D367-43AA-A364-15807491AA59}
+		{8BDDC78E-2C2B-495A-928A-1292E96BB97F} = {FD6DA077-3C26-41D0-A771-B4B9C0CCC40C}
+		{AE43A1DD-C4B1-40F2-87C1-112F5F07C5E9} = {C27701E9-E44E-4E5E-9735-C38B86B71AF7}
+		{67D6F034-CBF3-4C1F-9483-1AE526A8DE25} = {E16783D8-8EB5-44FA-BA5B-E272C8F548E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB4B0E02-9719-4D12-B5A8-04FF76A96AB6}
+	EndGlobalSection
+EndGlobal
